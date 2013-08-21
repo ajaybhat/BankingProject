@@ -11,5 +11,5 @@ Requirements:
 
 JDK - Download the latest version here : http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-Oracle Database 11g Express Edition - Download here :
+Oracle Database 11g Express Edition - Download here : http://www.oracle.com/technetwork/products/express-edition/downloads/index.html
 
