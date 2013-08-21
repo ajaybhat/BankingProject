@@ -1,0 +1,41 @@
+Question
+						---------------------
+-------------			|					|
+|			|---------->| Customer entrv	|
+|			|		    |					|
+|Accountant	|---------->| Transaction		|
+|			|		    |					|
+|			|---------->| View transaction	|
+-------------			---------------------
+
+
+Create table customer(
+accno number(8) primary key,
+name varchar2(15) not null,
+address varchar2(20) not null,
+phno varchar2(10) not null,
+acctype varchar2(20),
+balance number(7),
+no_of_trans number(3),
+password varchar2(10)
+);
+
+Create table transaction(
+accno number(8), 
+transdate date,
+transtype varchar2(10),
+amt number(7)
+);
+
+
+
+
+CLASSES
+Customer:
+Entry
+View Customer
+Edit Customer
+
+Transaction:
+Entry
+View Transaction
